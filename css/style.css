@@ -163,12 +163,27 @@ nav {
   height: 450px;
 }
 
+#sidebar_container2 {
+  float: left;
+  width: 450px;
+  padding: 0;
+  height: 0px;
+}
+
 #content { 
   text-align: justify;
   width: 444px;
   padding: 0 0 5px 30px;
   margin: 0;
   float: left;
+}
+
+#content2 { 
+  text-align: justify;
+  width: 444px;
+  padding: 0 0 5px 30px;
+  margin: 0;
+  float: center;
 }
 
 #content ul { 
