@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 { 
   font: normal 170% 'News Cycle', arial, sans-serif;
-  color: #BBB;  
+  color: #FFF;  
   margin: 0;
   padding: 0 0 8px 0;
 }
@@ -164,15 +164,15 @@ nav {
 }
 
 #sidebar_container2 {
-  float: left;
+  float: center;
   width: 450px;
-  padding: 0;
+  padding: 0px;
   height: 0px;
 }
 
 #content { 
   text-align: justify;
-  width: 444px;
+  width: 800px;
   padding: 0 0 5px 30px;
   margin: 0;
   float: left;
