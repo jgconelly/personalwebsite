@@ -1,73 +1,23 @@
-<html>
-
-<head>
-  <title>James G. Conelly</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
-</head>
-
-<body>
-  <div id="main">
-    <header>
-      <div id="logo"><h1>MY<a href="#">HOBBIES</a></h1></div>
-      <nav>
-        <ul class="lavaLampWithImage" id="lava_menu">
-          <li><a href="index.html">home</a></li>
-          <li class="current"><a href="hobbies.html">hobbies</a></li>
-          <li><a href="experience.html">experience</a></li>
-          <li><a href="contact.html">contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div id="site_content">
-      <div id="sidebar_container2">
-        <div id="gallery">
-        </div>
-      </div>
-      <div id="content">
-        <h1>My Hobbies</h1>
-        <h2>Music</h2>
-        <p></p>
-        Music is something that has always been a part of my life. I started playing the recorder in 3rd grade, which then led me start playing clarinet about a year later. I developed a deep afinity with classical and romantic music. 
-        <p></p>
-        I started playing bass on my 14th birthday so I could start playing all the rock and metal I kept hearing on the radio. 
-        <p></p> 
-        During my time in England, I picked up Alto and Tenor sax so I could play in the big band at school. I eventually majored in clarinet and saxophone performance at Santa Clara University. 
-        <p></p>
-        <h2>Rowing</h2>
-        <p></p>
-        I started rowing during my first year at Santa Clara University. It turned into an almost unhealthy obession, and the force that kept my brain together during my intense class load. 
-        <p></p>
-        <h2>Ultimate Frisbee</h2>
-        <p></p>
-        Growing up around Amherst sparked my interest in Ultimate. I thought about playing during my undergrad at SCU, but instead stuck with crew. During grad school, I was able to play with the club team SCAB. I try to play pickup on Saturday and Sunday in Mountain View and Palo Alto, CA. 
-        <p></p>
-        <h2>Reading</h2>
-        <p></p>
-        Thanks to my parents, reading has been a constant in my life since I was a kid. I am fan of science fiction/fantasy, as well as many other non-fiction books. 
-        <p></p>
-        Currently reading: <a href="http://en.wikipedia.org/wiki/Cat's_Cradle"> Cat's Cradle</a> by Kurt Vonnegut, JR.
-        <p></p>
-      </div>
-    </div>
-    <footer>
-      <p><a href="index.html">home</a> | <a href="hobbies.html">hobbies</a> | <a href="experience.html">experience</a> | <a href="contact.html">contact</a></p>
-      <p>&copy; 2014 James G. Conelly.</a></p>
-    </footer>
-  </div>
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
-  <script type="text/javascript">
-    $(function() {
-      $("#lava_menu").lavaLamp({
-        fx: "backout",
-        speed: 800
-      });
-    });
-  </script>
-</body>
-</html>
+<%= render "shared/header" %>
+  <h1>My Hobbies</h1>
+  <h2>Music</h2>
+  <p></p>
+  Music is my all time favorite activity. I started playing the recorder in 3rd grade, which then led me start playing clarinet about a year later. I developed a deep affinity with classical and romantic music.
+  I started playing bass on my 14th birthday. I wanted to start playing all the rock and metal I kept hearing on the radio.
+  During my time in England, I picked up Alto and Tenor sax so I could play in the big band at school. I eventually majored in clarinet and saxophone performance at Santa Clara University.
+  <p></p>
+  <h2>Rowing</h2>
+  <p></p>
+  I started rowing during my first year at Santa Clara University. It turned into an almost unhealthy obession, and the force that kept my brain together during my intense class load.
+  <p></p>
+  <h2>Ultimate Frisbee</h2>
+  <p></p>
+  Growing up around Amherst sparked my interest in Ultimate. I thought about playing during my undergrad at SCU, but instead stuck with crew. During grad school, I was able to play with the club team SCAB. I try to play pickup on Saturday and Sunday in Mountain View and Palo Alto, CA.
+  <p></p>
+  <h2>Reading</h2>
+  <p></p>
+  Reading has been a regular activity of mine since I was a kid. I am fan of science fiction/fantasy, as well as many other non-fiction books.
+  <p></p>
+  Currently reading: <a href="http://en.wikipedia.org/wiki/Cat's_Cradle">Cat's Cradle</a> by Kurt Vonnegut, JR.
+  <p></p>
+<%= render "shared/footer" %>

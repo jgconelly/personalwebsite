@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <title>James G. Conelly</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h1><%= @header_text.html_safe %></h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li class="<%= "current" if @index_current %>"><a href="/">home</a></li>
+          <li class="<%= "current" if @experience_current %>"><a href="/experience">experience</a></li>
+          <li class="<%= "current" if @hobbies_current %>"><a href="/hobbies">hobbies</a></li>
+          <li class="<%= "current" if @contact_current %>"><a href="/contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container2">
+        <div class="gallery">
+        </div>
+      </div>
+      <div id="content">
+

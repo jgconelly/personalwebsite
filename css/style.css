@@ -48,7 +48,7 @@ h2 {
 }
 
 h3 { 
-  font: normal 125% 'trebuchet ms', arial, sans-serif;
+  font: normal 125% 'News Cycle', arial, sans-serif;
 }
 
 h4, h5, h6 { 
@@ -264,10 +264,10 @@ ul img {
 
 .lavaLampWithImage li.back {
   background: #444;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 1px 1px 1px 1px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border: 15px 15px 15px 15px;
-  height: 28px;
+  height: 25px;
   z-index: 8;
   position: absolute;
 }

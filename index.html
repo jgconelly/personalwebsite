@@ -1,56 +1,8 @@
-<html>
-
-<head>
-  <title>James G. Conelly</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
-</head>
-
-<body>
-  <div id="main">
-    <header>
-      <div id="logo"><h1>JamesG<a href="#">Conelly</a></h1></div>
-      <nav>
-        <ul class="lavaLampWithImage" id="lava_menu">
-          <li class="current"><a href="index.html">home</a></li>
-          <li><a href="hobbies.html">hobbies</a></li>
-          <li><a href="experience.html">experience</a></li>
-          <li><a href="contact.html">contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div id="site_content">
-      <div id="sidebar_container2">
-        <div class="gallery">
-        </div>
-      </div>
-      <div id="content">
-        <h1>Welcome</h1>
-        <p> </p>
-        <p> Have a look through the experience tab to see my work history, and hobbies for what I do in my spare time. </p>
-        <p>If there is a need to contact me, all my information is available in the correponding tab.</p><p> 
-        This website is likely to change fairly rapidly. I have recently started to work with Rails, and I am working to incorporate some nice stuff into the site.</p> 
-        </p>
-      </div>
-    </div>
-    <footer>
-      <p><a href="index.html">home</a> | <a href="hobbies.html">hobbies</a> | <a href="experience.html">experience</a> | <a href="contact.html">contact</a></p>
-      <p>&copy; 2014 James G. Conelly.</a></p>
-    </footer>
-  </div>
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
-  <script type="text/javascript">
-    $(function() {
-      $("#lava_menu").lavaLamp({
-        fx: "backout",
-        speed: 800
-      });
-    });
-  </script>
-</body>
-</html>
+<%= render "shared/header" %>
+  <h1>Welcome</h1>
+  <p> </p>
+  <p> Have a look through the experience tab to see my work history, and hobbies for what I do in my spare time. </p>
+  <p>If there is a need to contact me, all my information is available in the correponding tab.</p><p>
+  This website is likely to change fairly rapidly. I have recently started to work with Rails, and I am working to incorporate some nice stuff into the site.</p>
+  </p>
+<%= render "shared/footer" %>
